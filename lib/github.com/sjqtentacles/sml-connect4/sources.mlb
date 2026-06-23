@@ -1,0 +1,9 @@
+(* Source files for the sml-connect4 library, in dependency order. *)
+
+$(SML_LIB)/basis/basis.mlb
+
+../sml-gametree/gametree.sig
+../sml-gametree/gametree.sml
+
+connect4.sig
+connect4.sml
